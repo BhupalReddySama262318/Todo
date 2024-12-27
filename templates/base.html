@@ -21,17 +21,25 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
+      <div class="container-fluid">
+        <!-- Use container-fluid for full width -->
         <a class="btn btn-outline-dark" href="/">My ToDo</a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          class="navbar-toggler ms-auto"
+          <!--
+          Push
+          toggle
+          button
+          to
+          the
+          far
+          right
+          --
         >
+          type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation" >
           <span class="fas fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -61,5 +69,11 @@
       </div>
     </nav>
     {% block body %} {% endblock body %}
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w7tds6c5jxsbK6V4NRCvdEa7P5Q/Tu0dDe22qkxIWuQq1ymYlCrzTcTftuP9MJ6S"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
