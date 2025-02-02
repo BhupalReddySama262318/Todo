@@ -103,8 +103,8 @@ This project is licensed under the MIT License.
 
 ## 📫 Support & Contact
 - GitHub Issues: Report bugs and feature requests
-- Email: your.email@example.com
-- Project Link: [https://github.com/yourusername/flask-todo-app](https://github.com/yourusername/flask-todo-app)
+- Email: bhupalreddysama18@gmail.com
+- Project Link: [https://github.com/BhupalReddySama262318/Todo.git](https://github.com/BhupalReddySama262318/Todo.git)
 
 ## 👏 Acknowledgments
 - Flask Documentation
